@@ -73,7 +73,7 @@ main{
     margin-top: 200px;
 }
 
-#faq{
+.cont{
     width: 70%;
     margin: 0 auto;
 }
@@ -93,4 +93,37 @@ h2{
 
 p{
     margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+}
+
+footer ul{
+    line-height: 50px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    margin: 0px 10px;
+}
+
+footer ul li:first-child{
+    margin-left: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+    font-size: 12px;
+}
+
+footer select{
+    width: 200px;
+    height: 20px;
+    font-size: 14px;
 }
