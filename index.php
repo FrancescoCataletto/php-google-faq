@@ -66,7 +66,12 @@ $db = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FILE CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- FONTAWESOME -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous'/>
+    <!-- BOOTSTRAP -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.css' integrity='sha512-c9N/Xq0n4rQdyCXF4RgrRYAAOSnNJDp8NWILsSUx+33zWyaMbXXvqajgO0UXybRdTGVpxq3FBrcGwabkWsT8OA==' crossorigin='anonymous'/>
     <title>Google-faq</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100;400&family=Roboto&family=Rubik+Mono+One&display=swap');
@@ -74,7 +79,25 @@ $db = [
 </head>
 <body>
     <header>
-
+        <div class="d-flex justify-content-between">
+            <div class="d-flex">
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt=""></a>
+                <h4>Privacy e termini</h4>
+            </div>
+            <div class="d-flex align-items-baseline" id="personal">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+                <a href="#"><p>F</p></a>
+            </div>
+        </div>
+        <div>
+            <ul class="d-flex">
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
