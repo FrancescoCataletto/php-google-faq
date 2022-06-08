@@ -5,12 +5,36 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+header{
+    height: 70px;
+    top: 0;
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+}
+
+/* MAIN */
+main{
+    margin-top: 100px;
+}
+
+#faq{
+    width: 70%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
 h1{
     margin-bottom: 30px;
 }
 
 h2{
     margin-bottom: 30px;
+    color: rgb(60, 64, 67);
 }
 
 p{
